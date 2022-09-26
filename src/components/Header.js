@@ -7,7 +7,11 @@ import React from 'react';
 // Subtitle: Your friendly contact app
 const Header = () => {
   return (
-    <></>
+    <div>
+      <h1 style={{ color:'#236AB9'}}>Call a Friend</h1>
+      <p style={{wordSpacing:4, letterSpacing:2}}>Your friendly contact app</p>
+      <br></br>
+    </div>
   );
 };
 
